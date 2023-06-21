@@ -1,0 +1,22 @@
+.navlink li {
+    overflow: hidden;
+}
+.navlink li a{
+    transition: all 0.10s ease;
+}
+.navlink li a:hover {
+    color: #0190ff;
+}
+.navlink li a::after {
+    content: '';
+    display: block;
+    width: 20%;
+    border-bottom: 3px solid #0190ff;
+    padding-bottom: 0.2em;
+    transform: translate(-150%);
+    transition: all 1s ease;    
+}
+.navlink li a:hover::after {
+    transform: translate(120%);
+    width: 50%;
+}
