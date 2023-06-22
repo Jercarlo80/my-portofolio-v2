@@ -38,6 +38,7 @@ const Portfolio = () => {
                 text-gray-400 
                 font-normal
                 text-xl 
+                pt-[20px]
                 sm:text-2xl'
                 >
                 Checkout some of my work, right here!
@@ -51,10 +52,9 @@ const Portfolio = () => {
                         md:grid-rows-2
                         md:grid-flow-row
                     '>
-                    
                         {/* Portofolio Website */}
                         <div>
-                            <div className='w-[500px] md:w-[400px] lg:w-[450px]'>
+                            <div className='w-[500px] md:w-[450px] lg:w-[450px]'>
                                 <img className='
                                 mx-auto
                                 md:w-full
@@ -79,7 +79,7 @@ const Portfolio = () => {
                             <p className='
                             text-gray-400 
                             w-[500px]     
-                            md:w-[400px]
+                            md:w-[450px]
                             text-justify
                             '
                             >
@@ -94,7 +94,7 @@ const Portfolio = () => {
 
                     {/* Stationary Shop Website */}
                     <div>
-                        <div className='w-[500px] md:w-[400px] lg:w-[450px]'>
+                        <div className='w-[500px] md:w-[450px] lg:w-[450px]'>
                                 <img className='
                                 mx-auto
                                 md:w-full
@@ -111,7 +111,6 @@ const Portfolio = () => {
                                 py-3
                                 text-xl
                                 font-bold
-
                             '>
                                 Stationary Shop Website 
                                 (2022)
@@ -119,7 +118,7 @@ const Portfolio = () => {
                             <p className='
                             text-gray-400   
                             w-[500px] 
-                            md:w-[400px]
+                            md:w-[435px]
                             text-justify
                             '
                             >
@@ -133,7 +132,7 @@ const Portfolio = () => {
                         </div>
                         {/* Kuliner.Go Website */}
                     <div>
-                        <div className='w-[500px] md:w-[400px] lg:w-[450px]'>
+                        <div className='w-[500px] md:w-[450px] lg:w-[450px]'>
                                 <img className='
                                 
                                 mx-auto
@@ -158,7 +157,7 @@ const Portfolio = () => {
                             </h2>
                             <p className='
                             text-gray-400 
-                            w-[500px] md:w-[400px]
+                            w-[500px] md:w-[450px]
                             text-justify
                             '
                             >
@@ -171,12 +170,16 @@ const Portfolio = () => {
 
                     {/* Kuliner.Go Website */}
                     <div>
-                        <div className='w-[500px] md:w-[400px] lg:w-[450px]'>
+                        <div className='w-[500px] md:w-[450px] lg:w-[450px]'>
                                 <img className='
                                 pt-4 
                                 md:pt-8 
-                                h-[240px]
                                 lg:pt-12
+                                w-[500px]
+                                md:w-[450px]
+                                h-[280px]
+                                md:h-[275px]
+                                
                                 ' 
                                 src={KG_Comp}
                                 />
@@ -194,7 +197,7 @@ const Portfolio = () => {
                             </h2>
                             <p className='
                             text-gray-400 
-                            w-[500px] md:w-[400px]
+                            w-[500px] md:w-[450px]
                             text-justify
                             '
                             >
@@ -207,12 +210,8 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-
-                
-                    
                 </div>
             </div>
-        
     </div>
   )
 }

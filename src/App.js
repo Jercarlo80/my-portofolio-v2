@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import SocialMedia from './components/SocialMedia';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
+import Experience from './pages/Experience';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <AboutMe/>
       <Portfolio/>
+      <Experience/>
       <SocialMedia/>
     </div>
   );
