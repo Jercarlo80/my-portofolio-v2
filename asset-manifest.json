@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portofolio-v2/static/css/main.2c5df08a.css",
+    "main.js": "/my-portofolio-v2/static/js/main.9e1c9962.js",
+    "static/media/Telu_GSG.png": "/my-portofolio-v2/static/media/Telu_GSG.d874cab4d0be8bb04a16.png",
+    "static/media/Telu_TULT.png": "/my-portofolio-v2/static/media/Telu_TULT.2bb3d88da0507cac080d.png",
+    "static/media/SMAN9.png": "/my-portofolio-v2/static/media/SMAN9.24c0bbd7f0b086a032c2.png",
+    "static/media/stationaryShop.png": "/my-portofolio-v2/static/media/stationaryShop.96a56d9cc8be7a5f879b.png",
+    "static/media/Carlo.png": "/my-portofolio-v2/static/media/Carlo.cba601f270dea48b673f.png",
+    "static/media/kg_comp.png": "/my-portofolio-v2/static/media/kg_comp.96a15a91fb6c5aabfab2.png",
+    "static/media/kuliner_go.png": "/my-portofolio-v2/static/media/kuliner_go.becdb47f9c54ae65a702.png",
+    "static/media/portfolio.png": "/my-portofolio-v2/static/media/portfolio.b7d002016b36c155bf3e.png",
+    "static/media/KG_Mobile.png": "/my-portofolio-v2/static/media/KG_Mobile.70f2ac29ebc65d0dfbf7.png",
+    "static/media/react.png": "/my-portofolio-v2/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/Telkom.png": "/my-portofolio-v2/static/media/Telkom.7023129f350f4d90cf84.png",
+    "static/media/github.png": "/my-portofolio-v2/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/my-portofolio-v2/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/my-portofolio-v2/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/my-portofolio-v2/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/my-portofolio-v2/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/my-portofolio-v2/index.html",
+    "main.2c5df08a.css.map": "/my-portofolio-v2/static/css/main.2c5df08a.css.map",
+    "main.9e1c9962.js.map": "/my-portofolio-v2/static/js/main.9e1c9962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c5df08a.css",
+    "static/js/main.9e1c9962.js"
+  ]
+}
