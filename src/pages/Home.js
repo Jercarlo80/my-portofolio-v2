@@ -9,8 +9,6 @@ const Home = () => {
         className='
         h-screen 
         w-full
-        justify-center
-        text-center
         '>
         <div 
             className='
@@ -21,17 +19,20 @@ const Home = () => {
                 items-center
                 justify-center
                 h-full
-                px-4
+                px-[30px]
                 md:flex-row
-                '
+                pt-72 
+                md:pt-8 
+                lg:pt-12
+            '
             >
-            <div className='flex flex-col justify-center h-full'>
-                <h1 className='text-white flex'>
+            <div className='flex flex-col justify-center'>
+                
+                <h1 className='text-white flex max-w-md'>
                     <CiLocationOn size={20}/>
                     <span className='font-bold px-1'>
                         Jakarta, Indonesia
                     </span>
-                        
                 </h1>
                 <h1 className='text-white font-bold text-justify text-[20px]'>Hello Everyone,
                 </h1>
@@ -73,6 +74,9 @@ const Home = () => {
                         rounded-2xl
                         mx-auto
                         md:w-full
+                        pt-4 
+                        md:pt-8 
+                        lg:pt-12
                     '
                 />
             </div>

@@ -28,7 +28,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     
   return (
-    <div className='${navbarColor} flex justify-between items-center w-full h-20 px-4 fixed'>
+    <div className='flex justify-between items-center w-full h-20 px-4 fixed bg-black'>
         <h1 className='text-[#0190ff] font-bold text-4xl cursor-pointer ml-3'>JERCARLO.</h1>
         <ul className='hidden md:flex'>
             {
