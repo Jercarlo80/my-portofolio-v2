@@ -1,10 +1,18 @@
 import React from 'react';
 import { CiLocationOn } from 'react-icons/ci';
 import { AiOutlineRight } from 'react-icons/ai';
-import Carlo from '../assets/portofolio/Carlo.png'
+import Carlo from '../assets/portofolio/Carlo.png';
+
 const Home = () => {
+    const handleScroll = () => {
+        window.scrollTo({
+          top: window.innerHeight,
+          behavior: 'smooth',
+        });
+    };
   return (
     <div 
+        id='home'
         name='home' 
         className='
         h-screen 
@@ -59,6 +67,7 @@ const Home = () => {
                         bg-[#01579b]
                         group
                     '
+                    onClick={handleScroll}
                     >
                         Get Started
                         <span className='group-hover:rotate-90 duration-900'>

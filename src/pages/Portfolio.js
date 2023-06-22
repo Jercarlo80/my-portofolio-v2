@@ -8,7 +8,7 @@ import KG_Mobile from '../assets/other/KG_Mobile.png';
 
 const Portfolio = () => {
   return (
-    <div className='
+    <div id='portfolio' className='
             max-w-screen-lg 
             mx-auto
             flex

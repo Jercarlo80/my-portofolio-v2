@@ -54,7 +54,9 @@ const Experience = () => {
       ];
     
   return (
-    <div className='
+    <div 
+    id='experience'
+    className='
     max-w-screen-lg 
     mx-auto
     flex
@@ -221,7 +223,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <div>
-                        <div>
+                        <div id='tools'>
                             <h2 className=' 
                                 pt-2
                                 text-white 
@@ -238,19 +240,31 @@ const Experience = () => {
                                 font-normal
                                 text-xl 
                                 pt-[20px]
-                                sm:text-2xl'
+                                sm:text-2xl
+                                w-[700px]
+                                '
                                 >
                                 This is all tools i've used to create this portfolio website
                             </h2>
-                            <div className="w-[950px] mx-auto p-1 flex flex-col justify-center  h-full text-white">
-                                <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-[50px] text-center py-8  px-12 sm:px-0">
+                            <div className="mx-auto p-1 flex flex-col justify-center  h-full text-white">
+                                <div className="
+                                md:w-[950px]
+                                w-[475px] 
+                                grid 
+                                grid-cols-1 
+                                sm:grid-cols-3 
+                                gap-[50px] 
+                                text-center 
+                                py-8  
+                                px-12 
+                                sm:px-0">
                                     {techs.map(({ id, src, title, style }) => (
                                         <div
                                         key={id}
                                         className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
                                         >
-                                        <img src={src} alt="" className="w-20 mx-auto" />
-                                        <p className="mt-4">{title}</p>
+                                            <img src={src} alt="tools" className="w-20 mx-auto" />
+                                            <p className="mt-4">{title}</p>
                                         </div>
                                     ))}
                                 </div>
