@@ -22,6 +22,7 @@ const SocialMedia = () => {
                 h-14
                 px-4
                 bg-gray-500
+                hover:bg-[#0A66C2]
                 ml-[-100px]
                 hover:ml-[-10px]
                 hover:rounded-md
@@ -42,6 +43,7 @@ const SocialMedia = () => {
                 h-14
                 px-4
                 bg-gray-500
+                hover:bg-black
                 ml-[-100px]
                 hover:ml-[-10px]
                 hover:rounded-md
@@ -62,6 +64,7 @@ const SocialMedia = () => {
                 h-14
                 px-4
                 bg-gray-500
+                hover:bg-black
                 ml-[-100px]
                 hover:ml-[-10px]
                 hover:rounded-md
@@ -82,6 +85,7 @@ const SocialMedia = () => {
                 h-14
                 px-4
                 bg-gray-500
+                hover:bg-gradient-to-r from-purple-500 via-pink-500 to-red-500
                 ml-[-100px]
                 hover:ml-[-10px]
                 hover:rounded-md
@@ -102,6 +106,7 @@ const SocialMedia = () => {
                 h-14
                 px-4
                 bg-gray-500
+                hover:bg-gradient-to-r from-red-500 via-yellow-500 to-blue-500
                 ml-[-100px]
                 hover:ml-[-10px]
                 hover:rounded-md
